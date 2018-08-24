@@ -8,13 +8,12 @@
 import scrapy
 
 
-class DoubanItem(scrapy.Item):
+class DongguanItem(scrapy.Item):
     # define the fields for your item here like:
     # name = scrapy.Field()
         title = scrapy.Field()
-        scriptwriter = scrapy.Field()
-        roles = scrapy.Field()
-        film_type = scrapy.Field()
-        poster_url = scrapy.Field()
-        # poster_img = scrapy.Field()
-        # detail = scrapy.Field()
+        number = scrapy.Field()
+        content = scrapy.Field()
+        date_time = scrapy.Field()
+        status = scrapy.Field()
+
