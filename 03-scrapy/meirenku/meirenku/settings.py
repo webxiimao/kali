@@ -48,7 +48,7 @@ DEFAULT_REQUEST_HEADERS = {
         'Pragma': 'no-cache',
         'Proxy-Connection': 'keep-alive',
         'Referer': 'http://huaban.com/boards/favorite/beauty/',
-        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+        'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.95 Safari/537.36',
         'X-Request': 'JSON',
         'X-Requested-With': 'XMLHttpRequest',
 }
@@ -73,9 +73,9 @@ DEFAULT_REQUEST_HEADERS = {
 
 # Configure item pipelines
 # See https://doc.scrapy.org/en/latest/topics/item-pipeline.html
-#ITEM_PIPELINES = {
-#    'meirenku.pipelines.MeirenkuPipeline': 300,
-#}
+ITEM_PIPELINES = {
+   'meirenku.pipelines.MeirenkuPipeline': 300,
+}
 
 # Enable and configure the AutoThrottle extension (disabled by default)
 # See https://doc.scrapy.org/en/latest/topics/autothrottle.html
@@ -97,3 +97,4 @@ DEFAULT_REQUEST_HEADERS = {
 #HTTPCACHE_DIR = 'httpcache'
 #HTTPCACHE_IGNORE_HTTP_CODES = []
 #HTTPCACHE_STORAGE = 'scrapy.extensions.httpcache.FilesystemCacheStorage'
+IMAGES_STORE = "/root/scrapy/huaban/"

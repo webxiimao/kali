@@ -10,5 +10,8 @@ import scrapy
 
 class MeirenkuItem(scrapy.Item):
     # define the fields for your item here like:
-        name = scrapy.Field()
+        img_urls = scrapy.Field()
+        # img_url = scrapy.Field()
         # pass
+        imgs = scrapy.Field()
+        imgs_paths = scrapy.Field()
