@@ -24,7 +24,7 @@ class Meirenku(scrapy.Spider):
   
               
                 text = json.loads(response.body)
-                if self.count >= 30 or not text['boards'] :
+                if text['boards'] == False :
                         return 
                 self.current_id = text['boards'][-1]['board_id']
                 self.count += 1
