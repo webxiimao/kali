@@ -16,6 +16,8 @@ class Meirenku(scrapy.Spider):
         current_id = '19768826'
         start_urls = ['http://huaban.com/boards/favorite/beauty']
         base_url = 'http://huaban.com/boards/favorite/beauty?jlc67zvd&max='
+        count = 1
+        count_pin = 1
         
                 
         def parse(self, response):
