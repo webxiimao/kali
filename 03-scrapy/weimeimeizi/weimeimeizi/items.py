@@ -11,6 +11,8 @@ import scrapy
 class WeimeimeiziItem(scrapy.Item):
     # define the fields for your item here like:
     # name = scrapy.Field()
+        title = scrapy.Field()
+        tag = scrapy.Field()
         img_urls = scrapy.Field()
-        img_paths = scrapy.Field()
+        imgs_paths = scrapy.Field()
         # img_urls = scrapy.Field()

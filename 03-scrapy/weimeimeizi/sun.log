@@ -1,0 +1,66 @@
+2018-08-29 17:47:03 [py.warnings] WARNING: /root/开发/python/03-scrapy/weimeimeizi/weimeimeizi/middlewares/customUserAgent.py:1: ScrapyDeprecationWarning: Module `scrapy.contrib.downloadermiddleware.useragent` is deprecated, use `scrapy.downloadermiddlewares.useragent` instead
+  from scrapy.contrib.downloadermiddleware.useragent import UserAgentMiddleware
+
+2018-08-29 17:47:05 [scrapy.pipelines.files] WARNING: File (code: 404): Error downloading file from <GET http://t1.hxzdhn.com/mmonly/2012/201201/013/9.jpg> referred in <http://www.mmonly.cc/tag/>
+2018-08-29 17:47:05 [scrapy.core.scraper] WARNING: Dropped: Item contains no images
+{'img_urls': [u'http://t1.hxzdhn.com/mmonly/2012/201201/013/9.jpg'],
+ 'tag': u'\u7edd\u8272',
+ 'title': u'\u7edd\u8272\u7f8e\u5973\u9165\u80f8\u7f8e\u81c0\u6027\u611f\u5199\u771f\u63a8\u83509'}
+2018-08-29 17:47:15 [scrapy.pipelines.files] WARNING: File (code: 404): Error downloading file from <GET http://t1.hxzdhn.com/mmonly/2012/201201/013/6.jpg> referred in <http://www.mmonly.cc/tag/>
+2018-08-29 17:47:15 [scrapy.pipelines.files] WARNING: File (code: 404): Error downloading file from <GET http://t1.hxzdhn.com/mmonly/2012/201201/013/8.jpg> referred in <http://www.mmonly.cc/tag/>
+2018-08-29 17:47:15 [scrapy.pipelines.files] WARNING: File (code: 404): Error downloading file from <GET http://t1.hxzdhn.com/mmonly/2012/201201/013/4.jpg> referred in <http://www.mmonly.cc/tag/>
+2018-08-29 17:47:15 [scrapy.pipelines.files] WARNING: File (code: 404): Error downloading file from <GET http://t1.hxzdhn.com/mmonly/2012/201201/013/7.jpg> referred in <http://www.mmonly.cc/tag/>
+2018-08-29 17:47:16 [scrapy.pipelines.files] WARNING: File (code: 404): Error downloading file from <GET http://t1.hxzdhn.com/mmonly/2012/201201/013/3.jpg> referred in <http://www.mmonly.cc/tag/>
+2018-08-29 17:47:16 [scrapy.core.scraper] WARNING: Dropped: Item contains no images
+{'img_urls': [u'http://t1.hxzdhn.com/mmonly/2012/201201/013/6.jpg'],
+ 'tag': u'\u7edd\u8272',
+ 'title': u'\u7edd\u8272\u7f8e\u5973\u9165\u80f8\u7f8e\u81c0\u6027\u611f\u5199\u771f\u63a8\u83506'}
+2018-08-29 17:47:16 [scrapy.core.scraper] WARNING: Dropped: Item contains no images
+{'img_urls': [u'http://t1.hxzdhn.com/mmonly/2012/201201/013/8.jpg'],
+ 'tag': u'\u7edd\u8272',
+ 'title': u'\u7edd\u8272\u7f8e\u5973\u9165\u80f8\u7f8e\u81c0\u6027\u611f\u5199\u771f\u63a8\u83508'}
+2018-08-29 17:47:16 [scrapy.pipelines.files] WARNING: File (code: 404): Error downloading file from <GET http://t1.hxzdhn.com/mmonly/2012/201201/013/2.jpg> referred in <http://www.mmonly.cc/tag/>
+2018-08-29 17:47:16 [scrapy.pipelines.files] WARNING: File (code: 404): Error downloading file from <GET http://t1.hxzdhn.com/mmonly/2012/201201/013/5.jpg> referred in <http://www.mmonly.cc/tag/>
+2018-08-29 17:47:16 [scrapy.core.scraper] WARNING: Dropped: Item contains no images
+{'img_urls': [u'http://t1.hxzdhn.com/mmonly/2012/201201/013/4.jpg'],
+ 'tag': u'\u7edd\u8272',
+ 'title': u'\u7edd\u8272\u7f8e\u5973\u9165\u80f8\u7f8e\u81c0\u6027\u611f\u5199\u771f\u63a8\u83504'}
+2018-08-29 17:47:16 [scrapy.core.scraper] WARNING: Dropped: Item contains no images
+{'img_urls': [u'http://t1.hxzdhn.com/mmonly/2012/201201/013/7.jpg'],
+ 'tag': u'\u7edd\u8272',
+ 'title': u'\u7edd\u8272\u7f8e\u5973\u9165\u80f8\u7f8e\u81c0\u6027\u611f\u5199\u771f\u63a8\u83507'}
+2018-08-29 17:47:16 [scrapy.core.scraper] WARNING: Dropped: Item contains no images
+{'img_urls': [u'http://t1.hxzdhn.com/mmonly/2012/201201/013/3.jpg'],
+ 'tag': u'\u7edd\u8272',
+ 'title': u'\u7edd\u8272\u7f8e\u5973\u9165\u80f8\u7f8e\u81c0\u6027\u611f\u5199\u771f\u63a8\u83503'}
+2018-08-29 17:47:16 [scrapy.core.scraper] WARNING: Dropped: Item contains no images
+{'img_urls': [u'http://t1.hxzdhn.com/mmonly/2012/201201/013/2.jpg'],
+ 'tag': u'\u7edd\u8272',
+ 'title': u'\u7edd\u8272\u7f8e\u5973\u9165\u80f8\u7f8e\u81c0\u6027\u611f\u5199\u771f\u63a8\u83502'}
+2018-08-29 17:47:16 [scrapy.core.scraper] WARNING: Dropped: Item contains no images
+{'img_urls': [u'http://t1.hxzdhn.com/mmonly/2012/201201/013/5.jpg'],
+ 'tag': u'\u7edd\u8272',
+ 'title': u'\u7edd\u8272\u7f8e\u5973\u9165\u80f8\u7f8e\u81c0\u6027\u611f\u5199\u771f\u63a8\u83505'}
+2018-08-29 17:47:43 [scrapy.core.downloader.handlers.http11] WARNING: Got data loss in http://t1.hxzdhn.com/uploads/tu/201804/9999/f8cccd61f2.jpg. If you want to process broken responses set the setting DOWNLOAD_FAIL_ON_DATALOSS = False -- This message won't be shown in further requests
+2018-08-29 17:47:43 [scrapy.core.downloader.handlers.http11] WARNING: Got data loss in http://t1.hxzdhn.com/uploads/tu/201804/9999/9f6e6d8452.jpg. If you want to process broken responses set the setting DOWNLOAD_FAIL_ON_DATALOSS = False -- This message won't be shown in further requests
+2018-08-29 17:47:43 [scrapy.core.downloader.handlers.http11] WARNING: Got data loss in http://t1.hxzdhn.com/uploads/tu/201804/9999/518378165d.jpg. If you want to process broken responses set the setting DOWNLOAD_FAIL_ON_DATALOSS = False -- This message won't be shown in further requests
+2018-08-29 17:47:43 [scrapy.core.downloader.handlers.http11] WARNING: Got data loss in http://t1.hxzdhn.com/uploads/tu/201804/9999/8f38b1060a.jpg. If you want to process broken responses set the setting DOWNLOAD_FAIL_ON_DATALOSS = False -- This message won't be shown in further requests
+2018-08-29 17:47:43 [scrapy.core.downloader.handlers.http11] WARNING: Got data loss in http://t1.hxzdhn.com/uploads/tu/201804/9999/204980d4f8.jpg. If you want to process broken responses set the setting DOWNLOAD_FAIL_ON_DATALOSS = False -- This message won't be shown in further requests
+2018-08-29 17:47:43 [scrapy.core.downloader.handlers.http11] WARNING: Got data loss in http://t1.hxzdhn.com/uploads/tu/201804/9999/ac5e09b707.jpg. If you want to process broken responses set the setting DOWNLOAD_FAIL_ON_DATALOSS = False -- This message won't be shown in further requests
+2018-08-29 17:56:26 [scrapy.pipelines.files] WARNING: File (unknown-error): Error downloading image from <GET http://t1.hxzdhn.com/uploads/tu/201804/9999/f8cccd61f2.jpg> referred in <http://www.mmonly.cc/tag/>: TCP connection timed out: 110: Connection timed out.
+2018-08-29 17:56:26 [scrapy.pipelines.files] WARNING: File (unknown-error): Error downloading image from <GET http://t1.hxzdhn.com/uploads/tu/201804/9999/9f6e6d8452.jpg> referred in <http://www.mmonly.cc/tag/>: TCP connection timed out: 110: Connection timed out.
+2018-08-29 17:56:26 [scrapy.pipelines.files] WARNING: File (unknown-error): Error downloading image from <GET http://t1.hxzdhn.com/uploads/tu/201804/9999/518378165d.jpg> referred in <http://www.mmonly.cc/tag/>: TCP connection timed out: 110: Connection timed out.
+2018-08-29 17:56:26 [scrapy.core.scraper] WARNING: Dropped: Item contains no images
+{'img_urls': [u'http://t1.hxzdhn.com/uploads/tu/201804/9999/f8cccd61f2.jpg'],
+ 'tag': u'\u6e05\u7eaf',
+ 'title': u'\u767e\u5408\u82b1\u5f00\u95fa\u871c\u79c1\u623f\u540a\u5e26\u5185\u8863\u6e05\u7eaf\u60f9\u706b\u5199\u771f9'}
+2018-08-29 17:56:26 [scrapy.core.scraper] WARNING: Dropped: Item contains no images
+{'img_urls': [u'http://t1.hxzdhn.com/uploads/tu/201804/9999/9f6e6d8452.jpg'],
+ 'tag': u'\u6e05\u7eaf',
+ 'title': u'\u767e\u5408\u82b1\u5f00\u95fa\u871c\u79c1\u623f\u540a\u5e26\u5185\u8863\u6e05\u7eaf\u60f9\u706b\u5199\u771f4'}
+2018-08-29 17:56:26 [scrapy.core.scraper] WARNING: Dropped: Item contains no images
+{'img_urls': [u'http://t1.hxzdhn.com/uploads/tu/201804/9999/518378165d.jpg'],
+ 'tag': u'\u6e05\u7eaf',
+ 'title': u'\u767e\u5408\u82b1\u5f00\u95fa\u871c\u79c1\u623f\u540a\u5e26\u5185\u8863\u6e05\u7eaf\u60f9\u706b\u5199\u771f8'}
+2018-08-29 17:57:34 [scrapy.core.downloader.handlers.http11] WARNING: Got data loss in http://t1.hxzdhn.com/uploads/tu/201803/9999/ea68b2170f.jpg. If you want to process broken responses set the setting DOWNLOAD_FAIL_ON_DATALOSS = False -- This message won't be shown in further requests
+2018-08-29 17:57:34 [scrapy.core.downloader.handlers.http11] WARNING: Got data loss in http://t1.hxzdhn.com/uploads/tu/201803/9999/933c4da407.jpg. If you want to process broken responses set the setting DOWNLOAD_FAIL_ON_DATALOSS = False -- This message won't be shown in further requests

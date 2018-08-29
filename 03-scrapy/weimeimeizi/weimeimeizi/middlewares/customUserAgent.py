@@ -1,5 +1,5 @@
 from scrapy.contrib.downloadermiddleware.useragent import UserAgentMiddleware
-from douban.middlewares.resource import USER_AGENT_LIST
+from weimeimeizi.middlewares.resource import USER_AGENT_LIST
 
 import random
 
